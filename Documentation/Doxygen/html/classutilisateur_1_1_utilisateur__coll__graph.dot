@@ -1,0 +1,16 @@
+digraph "utilisateur.Utilisateur"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="utilisateur.Utilisateur",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" spa" ,fontname="Helvetica"];
+  Node2 [label="spa.Spa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classspa_1_1_spa.html"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" client" ,fontname="Helvetica"];
+  Node3 [label="client.Client",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classclient_1_1_client.html"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" jeu" ,fontname="Helvetica"];
+  Node4 [label="casino.JeuCasino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcasino_1_1_jeu_casino.html"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" chambre" ,fontname="Helvetica"];
+  Node5 [label="chambre.Chambre",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchambre_1_1_chambre.html"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" table" ,fontname="Helvetica"];
+  Node6 [label="restaurant.Restaurant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classrestaurant_1_1_restaurant.html"];
+}
