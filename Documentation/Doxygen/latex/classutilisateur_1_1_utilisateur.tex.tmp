@@ -1,0 +1,29 @@
+\hypertarget{classutilisateur_1_1_utilisateur}{}\section{utilisateur.\+Utilisateur Class Reference}
+\label{classutilisateur_1_1_utilisateur}\index{utilisateur.\+Utilisateur@{utilisateur.\+Utilisateur}}
+
+
+Collaboration diagram for utilisateur.\+Utilisateur\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries client} ()\hypertarget{classutilisateur_1_1_utilisateur_ad8e9d93e1b750ab66c9ea0304678824b}{}\label{classutilisateur_1_1_utilisateur_ad8e9d93e1b750ab66c9ea0304678824b}
+
+\item 
+void {\bfseries chambre} ()\hypertarget{classutilisateur_1_1_utilisateur_ad0d7ed08656397c1ea0d52754f086b48}{}\label{classutilisateur_1_1_utilisateur_ad0d7ed08656397c1ea0d52754f086b48}
+
+\item 
+boolean {\bfseries Convertit\+Oui\+En\+Bool} (String ouinon)\hypertarget{classutilisateur_1_1_utilisateur_a071f4d40f348a782647f6a8ee73b1a9c}{}\label{classutilisateur_1_1_utilisateur_a071f4d40f348a782647f6a8ee73b1a9c}
+
+\item 
+void {\bfseries casino} ()\hypertarget{classutilisateur_1_1_utilisateur_a24355680352add8404f4e4c6bf1b14f3}{}\label{classutilisateur_1_1_utilisateur_a24355680352add8404f4e4c6bf1b14f3}
+
+\item 
+void {\bfseries recom} ()\hypertarget{classutilisateur_1_1_utilisateur_ac93db99fb7e6da43de2b8b88e3967cdb}{}\label{classutilisateur_1_1_utilisateur_ac93db99fb7e6da43de2b8b88e3967cdb}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+utilisateur/Utilisateur.\+java\end{DoxyCompactItemize}
