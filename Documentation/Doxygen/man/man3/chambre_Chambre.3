@@ -1,0 +1,97 @@
+.TH "chambre.Chambre" 3 "Sun Jan 12 2020" "Projet : Hotel "Blue Bay Caracao"" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+chambre.Chambre \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "enum \fBType\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBChambre\fP (ArrayList< \fBClient\fP > tableauClient, String arrivée, String départ)"
+.br
+.ti -1c
+.RI "ArrayList< \fBClient\fP > \fBgetTableauClient\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetType\fP ()"
+.br
+.ti -1c
+.RI "\fBType\fP \fBgetType\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPrix\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetPrix\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetArrivée\fP (String arrivée)"
+.br
+.ti -1c
+.RI "String \fBgetArrivée\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetDépart\fP (String départ)"
+.br
+.ti -1c
+.RI "String \fBgetDépart\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBdépartApresArrivée\fP (String arrivée, String départ)"
+.br
+.ti -1c
+.RI "long \fBcalculNbJours\fP (String arrivée, String départ)"
+.br
+.ti -1c
+.RI "boolean \fBdisponibilitéUneChambre\fP (\fBType\fP typeATester, String dateArrivéeATester, String dateDépartATester, int numéroTableau, String dateArrivéeTableau, String dateDépartTableau)"
+.br
+.ti -1c
+.RI "boolean \fBcompareDate\fP (String arrivéeATester, String départATester, String arrivéeTableau, String départTableau)"
+.br
+.ti -1c
+.RI "int \fBgetNuméroChambre\fP (\fBType\fP typeATester, String dateArrivéeATester, String dateDépartATester)"
+.br
+.ti -1c
+.RI "void \fBsetNuméroChambre\fP (\fBType\fP typeATester, String dateArrivéeATester, String dateDépartATester)"
+.br
+.ti -1c
+.RI "int \fBTestRetourNuméroChambre\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "ArrayList< \fBClient\fP > \fBtableauClient\fP = new ArrayList<\fBClient\fP>()"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static ArrayList< Integer > \fBtabNumChambre\fP = new ArrayList<Integer>()"
+.br
+.ti -1c
+.RI "static ArrayList< String > \fBtabDateArrivée\fP = new ArrayList<String>()"
+.br
+.ti -1c
+.RI "static ArrayList< String > \fBtabDateDépart\fP = new ArrayList<String>()"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Projet : Hotel 'Blue Bay Caracao' from the source code\&.
