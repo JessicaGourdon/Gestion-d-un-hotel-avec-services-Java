@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classutilisateur_1_1_utilisateur" kind="class" language="Java" prot="public">
+    <compoundname>utilisateur::Utilisateur</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a84f7f66bf4f1ecdec45d1c220b765a02" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; utilisateur.Utilisateur.tabNom</definition>
+        <argsstring></argsstring>
+        <name>tabNom</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="14" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1afa22df2c86e4c1d505981ff5d97fe3af" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; utilisateur.Utilisateur.tabPrénom</definition>
+        <argsstring></argsstring>
+        <name>tabPrénom</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="16" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1ad583f15b23109dddaf3a010d9efef94b" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; utilisateur.Utilisateur.tabDateNaissance</definition>
+        <argsstring></argsstring>
+        <name>tabDateNaissance</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="18" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a5da04f9910f26fb2fa55a0633ff010c7" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; utilisateur.Utilisateur.tabEmail</definition>
+        <argsstring></argsstring>
+        <name>tabEmail</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="20" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a18a4639e29279eabc3b8cf269e495dfe" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; utilisateur.Utilisateur.tabTéléphone</definition>
+        <argsstring></argsstring>
+        <name>tabTéléphone</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="22" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a57756d7c55847b668d9e14e64b4ca4c1" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int utilisateur.Utilisateur.nbPersonnes</definition>
+        <argsstring></argsstring>
+        <name>nbPersonnes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="24" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a64cb3b2cc8a9ab0a8b7d6892e5a8ae6c" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classclient_1_1_client" kindref="compound">Client</ref> &gt;</type>
+        <definition>ArrayList&lt;Client&gt; utilisateur.Utilisateur.tabClient</definition>
+        <argsstring></argsstring>
+        <name>tabClient</name>
+        <initializer>= new ArrayList&lt;<ref refid="classclient_1_1_client" kindref="compound">Client</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="26" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a68dcc73628b54fa90be295fd6abb30bd" prot="package" static="no" mutable="no">
+        <type><ref refid="classclient_1_1_client" kindref="compound">Client</ref>[]</type>
+        <definition>Client [] utilisateur.Utilisateur.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <initializer>= new <ref refid="classclient_1_1_client" kindref="compound">Client</ref>[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="28" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1adaa4e6ac183c72f9d65791fe93a8afd9" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; utilisateur.Utilisateur.tabDateArrivée</definition>
+        <argsstring></argsstring>
+        <name>tabDateArrivée</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="30" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a791f4e9408773aa4972e990c2e5cc2e2" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; utilisateur.Utilisateur.tabDateDépart</definition>
+        <argsstring></argsstring>
+        <name>tabDateDépart</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="32" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a5eca2e37c95e9a9d791ba34e36a2b826" prot="package" static="no" mutable="no">
+        <type><ref refid="classchambre_1_1_chambre" kindref="compound">Chambre</ref>[]</type>
+        <definition>Chambre [] utilisateur.Utilisateur.chambre</definition>
+        <argsstring></argsstring>
+        <name>chambre</name>
+        <initializer>= new <ref refid="classchambre_1_1_chambre" kindref="compound">Chambre</ref>[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="34" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a4a777c3994f8d1849fddda1b1544451d" prot="package" static="no" mutable="no">
+        <type><ref refid="classrestaurant_1_1_restaurant" kindref="compound">Restaurant</ref>[]</type>
+        <definition>Restaurant [] utilisateur.Utilisateur.table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <initializer>= new <ref refid="classrestaurant_1_1_restaurant" kindref="compound">Restaurant</ref>[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="36" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a5c0f8ef256163bec047d8ea3ffb3ec5a" prot="package" static="no" mutable="no">
+        <type><ref refid="classspa_1_1_spa" kindref="compound">Spa</ref>[]</type>
+        <definition>Spa [] utilisateur.Utilisateur.spa</definition>
+        <argsstring></argsstring>
+        <name>spa</name>
+        <initializer>= new <ref refid="classspa_1_1_spa" kindref="compound">Spa</ref>[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="38" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a949f3f5218cd1b1017dc9e523070f8da" prot="package" static="no" mutable="no">
+        <type><ref refid="classcasino_1_1_jeu_casino" kindref="compound">JeuCasino</ref>[]</type>
+        <definition>JeuCasino [] utilisateur.Utilisateur.jeu</definition>
+        <argsstring></argsstring>
+        <name>jeu</name>
+        <initializer>= new <ref refid="classcasino_1_1_jeu_casino" kindref="compound">JeuCasino</ref>[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="40" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a01d6cdfa8b0c689e0e7213b9dc268232" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; Double &gt;</type>
+        <definition>ArrayList&lt;Double&gt; utilisateur.Utilisateur.tabMonnaieMise</definition>
+        <argsstring></argsstring>
+        <name>tabMonnaieMise</name>
+        <initializer>= new ArrayList&lt;Double&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="42" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a629bcc86dcc898c603acd7a9ab344573" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; utilisateur.Utilisateur.tabMise</definition>
+        <argsstring></argsstring>
+        <name>tabMise</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="44" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1af7042818327d1e6591e81a9dfe582dc6" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double utilisateur.Utilisateur.monnaieInseree</definition>
+        <argsstring></argsstring>
+        <name>monnaieInseree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="48" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1acc0cae355a4ddd3db3ff938ee28fdaf5" prot="package" static="no" mutable="no">
+        <type>Scanner</type>
+        <definition>Scanner utilisateur.Utilisateur.sc</definition>
+        <argsstring></argsstring>
+        <name>sc</name>
+        <initializer>= new Scanner(System.in)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="53" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a9cffb2fa584e155c3be826b9b97a5175" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean utilisateur.Utilisateur.utiliseCagnotte</definition>
+        <argsstring></argsstring>
+        <name>utiliseCagnotte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="46" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1a08ccd64aa60063e4f8f5a986d18ef1bf" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean utilisateur.Utilisateur.recommencer</definition>
+        <argsstring></argsstring>
+        <name>recommencer</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="50" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classutilisateur_1_1_utilisateur_1ad4de03f98cf81786993295eefb2aa589" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int utilisateur.Utilisateur.k</definition>
+        <argsstring></argsstring>
+        <name>k</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="51" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classutilisateur_1_1_utilisateur_1aa00e1d6cb9623c300c48e745c6027452" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>utilisateur.Utilisateur.Utilisateur</definition>
+        <argsstring>()</argsstring>
+        <name>Utilisateur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="56" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="56" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classutilisateur_1_1_utilisateur_1ad8e9d93e1b750ab66c9ea0304678824b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void utilisateur.Utilisateur.client</definition>
+        <argsstring>()</argsstring>
+        <name>client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="85" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="85" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classutilisateur_1_1_utilisateur_1ad0d7ed08656397c1ea0d52754f086b48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void utilisateur.Utilisateur.chambre</definition>
+        <argsstring>()</argsstring>
+        <name>chambre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="113" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="113" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classutilisateur_1_1_utilisateur_1a071f4d40f348a782647f6a8ee73b1a9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean utilisateur.Utilisateur.ConvertitOuiEnBool</definition>
+        <argsstring>(String ouinon)</argsstring>
+        <name>ConvertitOuiEnBool</name>
+        <param>
+          <type>String</type>
+          <declname>ouinon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="126" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="126" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classutilisateur_1_1_utilisateur_1a24355680352add8404f4e4c6bf1b14f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void utilisateur.Utilisateur.casino</definition>
+        <argsstring>()</argsstring>
+        <name>casino</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="139" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="139" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classutilisateur_1_1_utilisateur_1ac93db99fb7e6da43de2b8b88e3967cdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void utilisateur.Utilisateur.recom</definition>
+        <argsstring>()</argsstring>
+        <name>recom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilisateur/Utilisateur.java" line="158" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="158" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="64">
+        <label>chambre.Chambre</label>
+        <link refid="classchambre_1_1_chambre"/>
+      </node>
+      <node id="63">
+        <label>casino.JeuCasino</label>
+        <link refid="classcasino_1_1_jeu_casino"/>
+      </node>
+      <node id="65">
+        <label>restaurant.Restaurant</label>
+        <link refid="classrestaurant_1_1_restaurant"/>
+      </node>
+      <node id="61">
+        <label>spa.Spa</label>
+        <link refid="classspa_1_1_spa"/>
+      </node>
+      <node id="62">
+        <label>client.Client</label>
+        <link refid="classclient_1_1_client"/>
+      </node>
+      <node id="60">
+        <label>utilisateur.Utilisateur</label>
+        <link refid="classutilisateur_1_1_utilisateur"/>
+        <childnode refid="61" relation="usage">
+          <edgelabel>spa</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>client</edgelabel>
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>jeu</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>chambre</edgelabel>
+        </childnode>
+        <childnode refid="65" relation="usage">
+          <edgelabel>table</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="utilisateur/Utilisateur.java" line="11" column="1" bodyfile="utilisateur/Utilisateur.java" bodystart="11" bodyend="181"/>
+    <listofallmembers>
+      <member refid="classutilisateur_1_1_utilisateur_1a24355680352add8404f4e4c6bf1b14f3" prot="public" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>casino</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a5eca2e37c95e9a9d791ba34e36a2b826" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>chambre</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1ad0d7ed08656397c1ea0d52754f086b48" prot="public" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>chambre</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a68dcc73628b54fa90be295fd6abb30bd" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>client</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1ad8e9d93e1b750ab66c9ea0304678824b" prot="public" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>client</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a071f4d40f348a782647f6a8ee73b1a9c" prot="public" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>ConvertitOuiEnBool</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a949f3f5218cd1b1017dc9e523070f8da" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>jeu</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1ad4de03f98cf81786993295eefb2aa589" prot="private" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>k</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1af7042818327d1e6591e81a9dfe582dc6" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>monnaieInseree</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a57756d7c55847b668d9e14e64b4ca4c1" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>nbPersonnes</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1ac93db99fb7e6da43de2b8b88e3967cdb" prot="public" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>recom</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a08ccd64aa60063e4f8f5a986d18ef1bf" prot="private" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>recommencer</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1acc0cae355a4ddd3db3ff938ee28fdaf5" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>sc</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a5c0f8ef256163bec047d8ea3ffb3ec5a" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>spa</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a64cb3b2cc8a9ab0a8b7d6892e5a8ae6c" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabClient</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1adaa4e6ac183c72f9d65791fe93a8afd9" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabDateArrivée</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a791f4e9408773aa4972e990c2e5cc2e2" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabDateDépart</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1ad583f15b23109dddaf3a010d9efef94b" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabDateNaissance</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a5da04f9910f26fb2fa55a0633ff010c7" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabEmail</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a4a777c3994f8d1849fddda1b1544451d" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>table</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a629bcc86dcc898c603acd7a9ab344573" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabMise</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a01d6cdfa8b0c689e0e7213b9dc268232" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabMonnaieMise</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a84f7f66bf4f1ecdec45d1c220b765a02" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabNom</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1afa22df2c86e4c1d505981ff5d97fe3af" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabPrénom</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a18a4639e29279eabc3b8cf269e495dfe" prot="package" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>tabTéléphone</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1aa00e1d6cb9623c300c48e745c6027452" prot="public" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>Utilisateur</name></member>
+      <member refid="classutilisateur_1_1_utilisateur_1a9cffb2fa584e155c3be826b9b97a5175" prot="private" virt="non-virtual"><scope>utilisateur::Utilisateur</scope><name>utiliseCagnotte</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

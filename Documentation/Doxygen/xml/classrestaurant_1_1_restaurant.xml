@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classrestaurant_1_1_restaurant" kind="class" language="Java" prot="public">
+    <compoundname>restaurant::Restaurant</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1a9e8dd99b00e51f2172b51f37c9bda406" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classclient_1_1_client" kindref="compound">Client</ref> &gt;</type>
+        <definition>ArrayList&lt;Client&gt; restaurant.Restaurant.tableauClient</definition>
+        <argsstring></argsstring>
+        <name>tableauClient</name>
+        <initializer>= new ArrayList&lt;<ref refid="classclient_1_1_client" kindref="compound">Client</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="10" column="1" bodyfile="restaurant/Restaurant.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1a98c8eae71bc6589701ac2ccd5d16e01e" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; Boolean &gt;</type>
+        <definition>ArrayList&lt;Boolean&gt; restaurant.Restaurant.tableauMojito</definition>
+        <argsstring></argsstring>
+        <name>tableauMojito</name>
+        <initializer>= new ArrayList&lt;Boolean&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="14" column="1" bodyfile="restaurant/Restaurant.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1a2a6a4b5dd85b006059e87be4fef93403" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; Boolean &gt;</type>
+        <definition>ArrayList&lt;Boolean&gt; restaurant.Restaurant.tableauDaiquiri</definition>
+        <argsstring></argsstring>
+        <name>tableauDaiquiri</name>
+        <initializer>= new ArrayList&lt;Boolean&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="16" column="1" bodyfile="restaurant/Restaurant.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1ada5cac3fef31b022efe7c5d5980bd207" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; Boolean &gt;</type>
+        <definition>ArrayList&lt;Boolean&gt; restaurant.Restaurant.tableauPlat</definition>
+        <argsstring></argsstring>
+        <name>tableauPlat</name>
+        <initializer>= new ArrayList&lt;Boolean&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="18" column="1" bodyfile="restaurant/Restaurant.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1a0804ce7004986cba969c1a1912804fb6" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; Boolean &gt;</type>
+        <definition>ArrayList&lt;Boolean&gt; restaurant.Restaurant.tableauAccompagnement</definition>
+        <argsstring></argsstring>
+        <name>tableauAccompagnement</name>
+        <initializer>= new ArrayList&lt;Boolean&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="20" column="1" bodyfile="restaurant/Restaurant.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1af0b87633c874187760dc7d2fd8d8d51c" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; Boolean &gt;</type>
+        <definition>ArrayList&lt;Boolean&gt; restaurant.Restaurant.tableauDessert</definition>
+        <argsstring></argsstring>
+        <name>tableauDessert</name>
+        <initializer>= new ArrayList&lt;Boolean&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="22" column="1" bodyfile="restaurant/Restaurant.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1a059727139477e6b4fe0592a4b236b8b2" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; Boolean &gt;</type>
+        <definition>ArrayList&lt;Boolean&gt; restaurant.Restaurant.tableauBoisson</definition>
+        <argsstring></argsstring>
+        <name>tableauBoisson</name>
+        <initializer>= new ArrayList&lt;Boolean&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="24" column="1" bodyfile="restaurant/Restaurant.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1ab4e40ae563d550f431f1581283bf92b5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double restaurant.Restaurant.prixTotal</definition>
+        <argsstring></argsstring>
+        <name>prixTotal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="26" column="1" bodyfile="restaurant/Restaurant.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1aa69855aa2035ac6ee4fd9bd18989e7f1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.Restaurant.ticketTotalMis</definition>
+        <argsstring></argsstring>
+        <name>ticketTotalMis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="28" column="1" bodyfile="restaurant/Restaurant.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1aab2cab1e5303fca05ae54a5e533eafc8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double restaurant.Restaurant.argentRestantAPayer</definition>
+        <argsstring></argsstring>
+        <name>argentRestantAPayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="30" column="1" bodyfile="restaurant/Restaurant.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classrestaurant_1_1_restaurant_1a546b18f49024360e1fac83a21464ea08" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int restaurant.Restaurant.nbclient</definition>
+        <argsstring></argsstring>
+        <name>nbclient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="12" column="1" bodyfile="restaurant/Restaurant.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classrestaurant_1_1_restaurant_1aa77684458e43d92a94b30cf10bace9cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>restaurant.Restaurant.Restaurant</definition>
+        <argsstring>(ArrayList&lt; Client &gt; tableauClient)</argsstring>
+        <name>Restaurant</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classclient_1_1_client" kindref="compound">Client</ref> &gt;</type>
+          <declname>tableauClient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="33" column="1" bodyfile="restaurant/Restaurant.java" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_restaurant_1a66a62a3634041833baf1451bb01d8d58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean restaurant.Restaurant.ConvertitOuiEnBool</definition>
+        <argsstring>(String ouinon)</argsstring>
+        <name>ConvertitOuiEnBool</name>
+        <param>
+          <type>String</type>
+          <declname>ouinon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="40" column="1" bodyfile="restaurant/Restaurant.java" bodystart="40" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_restaurant_1a2903cccb976a094b95f0481551e67aef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.Restaurant.commande</definition>
+        <argsstring>()</argsstring>
+        <name>commande</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="53" column="1" bodyfile="restaurant/Restaurant.java" bodystart="53" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_restaurant_1a69c1ab00ecdd7db6f07b064dab415dfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.Restaurant.CalculTotalPrix</definition>
+        <argsstring>()</argsstring>
+        <name>CalculTotalPrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="108" column="1" bodyfile="restaurant/Restaurant.java" bodystart="108" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_restaurant_1aeaf5686a6f8bf486b7f88276e93baacd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.Restaurant.Reglement</definition>
+        <argsstring>()</argsstring>
+        <name>Reglement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="144" column="1" bodyfile="restaurant/Restaurant.java" bodystart="144" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classrestaurant_1_1_restaurant_1a0d97ba5d34067c21d8afaa28fb704b48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void restaurant.Restaurant.DeroulementRestaurant</definition>
+        <argsstring>()</argsstring>
+        <name>DeroulementRestaurant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restaurant/Restaurant.java" line="185" column="1" bodyfile="restaurant/Restaurant.java" bodystart="185" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="restaurant/Restaurant.java" line="7" column="1" bodyfile="restaurant/Restaurant.java" bodystart="7" bodyend="193"/>
+    <listofallmembers>
+      <member refid="classrestaurant_1_1_restaurant_1aab2cab1e5303fca05ae54a5e533eafc8" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>argentRestantAPayer</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a69c1ab00ecdd7db6f07b064dab415dfc" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>CalculTotalPrix</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a2903cccb976a094b95f0481551e67aef" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>commande</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a66a62a3634041833baf1451bb01d8d58" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>ConvertitOuiEnBool</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a0d97ba5d34067c21d8afaa28fb704b48" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>DeroulementRestaurant</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a546b18f49024360e1fac83a21464ea08" prot="private" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>nbclient</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1ab4e40ae563d550f431f1581283bf92b5" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>prixTotal</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1aeaf5686a6f8bf486b7f88276e93baacd" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>Reglement</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1aa77684458e43d92a94b30cf10bace9cd" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>Restaurant</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a0804ce7004986cba969c1a1912804fb6" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>tableauAccompagnement</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a059727139477e6b4fe0592a4b236b8b2" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>tableauBoisson</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a9e8dd99b00e51f2172b51f37c9bda406" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>tableauClient</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a2a6a4b5dd85b006059e87be4fef93403" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>tableauDaiquiri</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1af0b87633c874187760dc7d2fd8d8d51c" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>tableauDessert</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1a98c8eae71bc6589701ac2ccd5d16e01e" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>tableauMojito</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1ada5cac3fef31b022efe7c5d5980bd207" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>tableauPlat</name></member>
+      <member refid="classrestaurant_1_1_restaurant_1aa69855aa2035ac6ee4fd9bd18989e7f1" prot="public" virt="non-virtual"><scope>restaurant::Restaurant</scope><name>ticketTotalMis</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

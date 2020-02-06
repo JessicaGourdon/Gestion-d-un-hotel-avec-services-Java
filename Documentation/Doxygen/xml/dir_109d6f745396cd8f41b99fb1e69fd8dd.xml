@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_109d6f745396cd8f41b99fb1e69fd8dd" kind="dir">
+    <compoundname>spa</compoundname>
+    <innerfile refid="_spa_8java">Spa.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="spa/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="enumcasino_1_1_jeu_casino_1_1_mise" kind="enum" language="Java" prot="protected">
+    <compoundname>casino::JeuCasino::Mise</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumcasino_1_1_jeu_casino_1_1_mise_1af683151a02b168ff3f7df52ffadd6def" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>casino.JeuCasino.Mise.PAIR</definition>
+        <argsstring></argsstring>
+        <name>PAIR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="18" column="1" bodyfile="casino/JeuCasino.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumcasino_1_1_jeu_casino_1_1_mise_1a487598c718e31dd13140a3ce80c3a9de" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>casino.JeuCasino.Mise.IMPAIR</definition>
+        <argsstring></argsstring>
+        <name>IMPAIR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="18" column="1" bodyfile="casino/JeuCasino.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumcasino_1_1_jeu_casino_1_1_mise_1ab4cbbc801e16765e06f60e22e08d8adb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>casino.JeuCasino.Mise.ROUGE</definition>
+        <argsstring></argsstring>
+        <name>ROUGE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="18" column="1" bodyfile="casino/JeuCasino.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumcasino_1_1_jeu_casino_1_1_mise_1ac58dfa09d5ba523d7baa6a57194f350e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>casino.JeuCasino.Mise.NOIR</definition>
+        <argsstring></argsstring>
+        <name>NOIR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="18" column="1" bodyfile="casino/JeuCasino.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumcasino_1_1_jeu_casino_1_1_mise_1af420eb448786ab0e870ab031883c3efb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>casino.JeuCasino.Mise.MANQUE</definition>
+        <argsstring></argsstring>
+        <name>MANQUE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="18" column="1" bodyfile="casino/JeuCasino.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumcasino_1_1_jeu_casino_1_1_mise_1a106302554677d20d4883ddac23d03de6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>casino.JeuCasino.Mise.PASSE</definition>
+        <argsstring></argsstring>
+        <name>PASSE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="18" column="1" bodyfile="casino/JeuCasino.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="casino/JeuCasino.java" line="18" column="1" bodyfile="casino/JeuCasino.java" bodystart="18" bodyend="18"/>
+    <listofallmembers>
+      <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1a487598c718e31dd13140a3ce80c3a9de" prot="public" virt="non-virtual"><scope>casino::JeuCasino::Mise</scope><name>IMPAIR</name></member>
+      <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1af420eb448786ab0e870ab031883c3efb" prot="public" virt="non-virtual"><scope>casino::JeuCasino::Mise</scope><name>MANQUE</name></member>
+      <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1ac58dfa09d5ba523d7baa6a57194f350e" prot="public" virt="non-virtual"><scope>casino::JeuCasino::Mise</scope><name>NOIR</name></member>
+      <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1af683151a02b168ff3f7df52ffadd6def" prot="public" virt="non-virtual"><scope>casino::JeuCasino::Mise</scope><name>PAIR</name></member>
+      <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1a106302554677d20d4883ddac23d03de6" prot="public" virt="non-virtual"><scope>casino::JeuCasino::Mise</scope><name>PASSE</name></member>
+      <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1ab4cbbc801e16765e06f60e22e08d8adb" prot="public" virt="non-virtual"><scope>casino::JeuCasino::Mise</scope><name>ROUGE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

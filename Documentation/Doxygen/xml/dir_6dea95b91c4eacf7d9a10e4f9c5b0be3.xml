@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_6dea95b91c4eacf7d9a10e4f9c5b0be3" kind="dir">
+    <compoundname>chambre</compoundname>
+    <innerfile refid="_chambre_8java">Chambre.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="chambre/"/>
+  </compounddef>
+</doxygen>

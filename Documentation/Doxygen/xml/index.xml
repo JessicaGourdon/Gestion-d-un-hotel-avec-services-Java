@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classchambre_1_1_chambre" kind="class"><name>chambre::Chambre</name>
+    <member refid="classchambre_1_1_chambre_1aac87080c7e7827ea70060de51438de57" kind="variable"><name>tableauClient</name></member>
+    <member refid="classchambre_1_1_chambre_1a4326db9259de3d53c17d28daebdc61f3" kind="variable"><name>type</name></member>
+    <member refid="classchambre_1_1_chambre_1a677148848da0ab6982d48fadc1590cc7" kind="variable"><name>prix</name></member>
+    <member refid="classchambre_1_1_chambre_1a486e071b162619b9982caeda00f47269" kind="variable"><name>prixTaxe</name></member>
+    <member refid="classchambre_1_1_chambre_1a36b810d25d3956cbe5efefca1a55b460" kind="variable"><name>arrivée</name></member>
+    <member refid="classchambre_1_1_chambre_1a14ccbc9e966135fccd74434a8c3dd32a" kind="variable"><name>départ</name></member>
+    <member refid="classchambre_1_1_chambre_1af47cd65d740345efe28c8ca25a2d7fa2" kind="variable"><name>nbjour</name></member>
+    <member refid="classchambre_1_1_chambre_1a8fd5b8b6c690c673320c71013e27f9ac" kind="variable"><name>numéroChambre</name></member>
+    <member refid="classchambre_1_1_chambre_1a162ba11a048f8aab26a7c6bf761e21a2" kind="variable"><name>tabNumChambre</name></member>
+    <member refid="classchambre_1_1_chambre_1a9b29e09f4bc6d62664f59e99de63564d" kind="variable"><name>tabDateArrivée</name></member>
+    <member refid="classchambre_1_1_chambre_1ae17d710576e4b2666e6a322f7f7876b1" kind="variable"><name>tabDateDépart</name></member>
+    <member refid="classchambre_1_1_chambre_1aa5fce4f89ec26914e9c893a46ef307a5" kind="function"><name>Chambre</name></member>
+    <member refid="classchambre_1_1_chambre_1a51bfdb856bbddf4a7560d47e3fce1d2c" kind="function"><name>getTableauClient</name></member>
+    <member refid="classchambre_1_1_chambre_1a4adaa2f400c44659a2a3255ac73082f7" kind="function"><name>setType</name></member>
+    <member refid="classchambre_1_1_chambre_1a85a3796563b757947757ae361d9d54d3" kind="function"><name>getType</name></member>
+    <member refid="classchambre_1_1_chambre_1ab4ddf8eb213fd4c999947304e6a08afc" kind="function"><name>setPrix</name></member>
+    <member refid="classchambre_1_1_chambre_1a4abf51f9539b9cfebacce9e784950e1e" kind="function"><name>getPrix</name></member>
+    <member refid="classchambre_1_1_chambre_1a47b0ba3b56069c35371414a55ab694cc" kind="function"><name>setArrivée</name></member>
+    <member refid="classchambre_1_1_chambre_1a22b4dd6da5c38dca2804397d9226afbc" kind="function"><name>getArrivée</name></member>
+    <member refid="classchambre_1_1_chambre_1aae7c45ce7706478c6a567eea46d0b070" kind="function"><name>setDépart</name></member>
+    <member refid="classchambre_1_1_chambre_1ac4f1540d86b148a6bcf83d84f3c5a512" kind="function"><name>getDépart</name></member>
+    <member refid="classchambre_1_1_chambre_1a9743685f40e65b19febe5d88e4833a0b" kind="function"><name>départApresArrivée</name></member>
+    <member refid="classchambre_1_1_chambre_1a793aabc721c19132c61965d903994ac1" kind="function"><name>calculNbJours</name></member>
+    <member refid="classchambre_1_1_chambre_1af0f6b23009a6ccc1a14fa158d89314ab" kind="function"><name>disponibilitéUneChambre</name></member>
+    <member refid="classchambre_1_1_chambre_1ad1af4648ca1f52439d13c10549e0fbcf" kind="function"><name>compareDate</name></member>
+    <member refid="classchambre_1_1_chambre_1ab37177f79e74c2b861e50b5b62f0a75a" kind="function"><name>getNuméroChambre</name></member>
+    <member refid="classchambre_1_1_chambre_1a9faa902b212b252dff41d0853e51687f" kind="function"><name>setNuméroChambre</name></member>
+    <member refid="classchambre_1_1_chambre_1a96d4df9b6ec946bf01604cbfa85c8b00" kind="function"><name>TestRetourNuméroChambre</name></member>
+    <member refid="classchambre_1_1_chambre_1aae6de00a7aad0dae0f9cc065c90a18d0" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classclient_1_1_client" kind="class"><name>client::Client</name>
+    <member refid="classclient_1_1_client_1a7991ac55bb7151f1095afe40001333cd" kind="variable"><name>prénom</name></member>
+    <member refid="classclient_1_1_client_1ad236246e3792517bc7898f813285a448" kind="variable"><name>nom</name></member>
+    <member refid="classclient_1_1_client_1abe835f29d7f4c6d914f993867fbe4f36" kind="variable"><name>naissance</name></member>
+    <member refid="classclient_1_1_client_1a9850f534cbfc9d0fbac33b2057fdbc42" kind="variable"><name>email</name></member>
+    <member refid="classclient_1_1_client_1a17594ce8d409f4c9d391d0daead76ef1" kind="variable"><name>téléphone</name></member>
+    <member refid="classclient_1_1_client_1a5fbae8047e33d21bd19c8f06a4bea652" kind="variable"><name>CagnotteCasino</name></member>
+    <member refid="classclient_1_1_client_1a7c531b794cbc33b07b286874a7cc62c5" kind="variable"><name>ticketRestaurant</name></member>
+    <member refid="classclient_1_1_client_1a352ae7e985dcc272944f41c630b19826" kind="function"><name>Client</name></member>
+    <member refid="classclient_1_1_client_1a10fca5d94349a6151b6195601790ed37" kind="function"><name>getPrénom</name></member>
+    <member refid="classclient_1_1_client_1a67ef67b287f2effd22de1f950642e80c" kind="function"><name>setPrénom</name></member>
+    <member refid="classclient_1_1_client_1adec45a786879acb72cc17e51e76c7373" kind="function"><name>getNom</name></member>
+    <member refid="classclient_1_1_client_1ae3bd099337c8a316dabd27a61c015417" kind="function"><name>setNom</name></member>
+    <member refid="classclient_1_1_client_1a3a24e5a788a996e25b846caf118c337f" kind="function"><name>getNaissance</name></member>
+    <member refid="classclient_1_1_client_1a0cedd76dbca326eb449364bc74db17e4" kind="function"><name>setNaissance</name></member>
+    <member refid="classclient_1_1_client_1a95d46988c8ea55add69f98057a1fb471" kind="function"><name>getEmail</name></member>
+    <member refid="classclient_1_1_client_1ada37fba87454952eb0223b858b0e7651" kind="function"><name>setEmail</name></member>
+    <member refid="classclient_1_1_client_1a22b50a565aeba5206ccd3db2f5cd24ca" kind="function"><name>getTéléphone</name></member>
+    <member refid="classclient_1_1_client_1ac64e8abd8ef5dffa0a537f78addaf2ba" kind="function"><name>estUnEntier</name></member>
+    <member refid="classclient_1_1_client_1a3317387082b1802fa15455f5effa4d0a" kind="function"><name>setTéléphone</name></member>
+    <member refid="classclient_1_1_client_1a23521681f84e8c555d3f41ae44bdad01" kind="function"><name>getCagnotte</name></member>
+    <member refid="classclient_1_1_client_1abb69f7fbef51d6b314637d1e9973fd38" kind="function"><name>setCagnotte</name></member>
+    <member refid="classclient_1_1_client_1a4f6ce4432254f161fcac1c764fcb8375" kind="function"><name>getTicket</name></member>
+    <member refid="classclient_1_1_client_1a26caea9aa4fe404f9baf5849d05a11dd" kind="function"><name>setTicket</name></member>
+    <member refid="classclient_1_1_client_1ae71bb329735a7d19f86ab7d6859fd60f" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classcasino_1_1_jeu_casino" kind="class"><name>casino::JeuCasino</name>
+    <member refid="classcasino_1_1_jeu_casino_1afb5f3db1e0211e4548600544983cd93b" kind="variable"><name>client</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1a3dfe6716271ab773f81db3770cd43a76" kind="variable"><name>cagnotteOfferte</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1a3defda81963bd075a3b2fb9920694680" kind="variable"><name>argentInseree</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1a2be41e57ab10b53f57c8078adc6c59f6" kind="variable"><name>argentMise</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1aeb8eadb566f53c3018152800012b4645" kind="variable"><name>tableauMise</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1a63be96b07399e98c3a1f1cfba3ac9138" kind="variable"><name>gain</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1afa8267154feb23482e4a07c686e237c9" kind="variable"><name>numeroTiree</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1a89253cecf6127a64971db659908a3fa6" kind="function"><name>JeuCasino</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1a285b3e8370e8fe3c437d0ae890b776bb" kind="function"><name>InsertionMonnaie</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1addf8b8e744f93f755c984191e7303674" kind="function"><name>FaitesVosJeux</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1ae047ff260857807fd81ff6fabfc2e401" kind="function"><name>tirageNumero</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1af6f2beda5cfbaa704805a0818a1c7415" kind="function"><name>gestionGain</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1a0fb4d5b6476b4b290987319dd4691061" kind="function"><name>VersementGain</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1a9532687038f2f9617f2b48c46f5c5fca" kind="function"><name>deroulementJeuComplet</name></member>
+    <member refid="classcasino_1_1_jeu_casino_1acc850777b656c514201d0b501274a497" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="enumcasino_1_1_jeu_casino_1_1_mise" kind="enum"><name>casino::JeuCasino::Mise</name>
+    <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1af683151a02b168ff3f7df52ffadd6def" kind="variable"><name>PAIR</name></member>
+    <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1a487598c718e31dd13140a3ce80c3a9de" kind="variable"><name>IMPAIR</name></member>
+    <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1ab4cbbc801e16765e06f60e22e08d8adb" kind="variable"><name>ROUGE</name></member>
+    <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1ac58dfa09d5ba523d7baa6a57194f350e" kind="variable"><name>NOIR</name></member>
+    <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1af420eb448786ab0e870ab031883c3efb" kind="variable"><name>MANQUE</name></member>
+    <member refid="enumcasino_1_1_jeu_casino_1_1_mise_1a106302554677d20d4883ddac23d03de6" kind="variable"><name>PASSE</name></member>
+  </compound>
+  <compound refid="classrestaurant_1_1_restaurant" kind="class"><name>restaurant::Restaurant</name>
+    <member refid="classrestaurant_1_1_restaurant_1a9e8dd99b00e51f2172b51f37c9bda406" kind="variable"><name>tableauClient</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1a98c8eae71bc6589701ac2ccd5d16e01e" kind="variable"><name>tableauMojito</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1a2a6a4b5dd85b006059e87be4fef93403" kind="variable"><name>tableauDaiquiri</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1ada5cac3fef31b022efe7c5d5980bd207" kind="variable"><name>tableauPlat</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1a0804ce7004986cba969c1a1912804fb6" kind="variable"><name>tableauAccompagnement</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1af0b87633c874187760dc7d2fd8d8d51c" kind="variable"><name>tableauDessert</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1a059727139477e6b4fe0592a4b236b8b2" kind="variable"><name>tableauBoisson</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1ab4e40ae563d550f431f1581283bf92b5" kind="variable"><name>prixTotal</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1aa69855aa2035ac6ee4fd9bd18989e7f1" kind="variable"><name>ticketTotalMis</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1aab2cab1e5303fca05ae54a5e533eafc8" kind="variable"><name>argentRestantAPayer</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1a546b18f49024360e1fac83a21464ea08" kind="variable"><name>nbclient</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1aa77684458e43d92a94b30cf10bace9cd" kind="function"><name>Restaurant</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1a66a62a3634041833baf1451bb01d8d58" kind="function"><name>ConvertitOuiEnBool</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1a2903cccb976a094b95f0481551e67aef" kind="function"><name>commande</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1a69c1ab00ecdd7db6f07b064dab415dfc" kind="function"><name>CalculTotalPrix</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1aeaf5686a6f8bf486b7f88276e93baacd" kind="function"><name>Reglement</name></member>
+    <member refid="classrestaurant_1_1_restaurant_1a0d97ba5d34067c21d8afaa28fb704b48" kind="function"><name>DeroulementRestaurant</name></member>
+  </compound>
+  <compound refid="classspa_1_1_spa" kind="class"><name>spa::Spa</name>
+    <member refid="classspa_1_1_spa_1af86eb1c2f9e318fcf2c9504110cb92fc" kind="variable"><name>prixRelaxant</name></member>
+    <member refid="classspa_1_1_spa_1aff1c72b1b06f958361de4ea27bbc0f08" kind="variable"><name>prixPierre</name></member>
+    <member refid="classspa_1_1_spa_1a289f7878a8cf0010098bc18b69dbdf00" kind="variable"><name>prixBougie</name></member>
+    <member refid="classspa_1_1_spa_1af081f234e3013c472766870ecc5eda54" kind="variable"><name>tableauClient</name></member>
+    <member refid="classspa_1_1_spa_1a51d4dd0f55b2204b453aff717d36f890" kind="variable"><name>tableauRelaxant</name></member>
+    <member refid="classspa_1_1_spa_1a8efb784331cac4c3ad58a526fbebd551" kind="variable"><name>tableauPierre</name></member>
+    <member refid="classspa_1_1_spa_1a02d800bc0b185c7241ed4f0cbd573a43" kind="variable"><name>tableauBougie</name></member>
+    <member refid="classspa_1_1_spa_1a67945f1ee7790c435c6f8db646b2e850" kind="variable"><name>prixTotal</name></member>
+    <member refid="classspa_1_1_spa_1a304f83435f4742a8efe8c433f8c7a230" kind="variable"><name>nbclient</name></member>
+    <member refid="classspa_1_1_spa_1a62a39f9b07c2e0c835d259f6d930e880" kind="function"><name>Spa</name></member>
+    <member refid="classspa_1_1_spa_1a14f824a74e7914bfeb14f6074789798a" kind="function"><name>ConvertitOuiEnBool</name></member>
+    <member refid="classspa_1_1_spa_1a1da6de3ac40d4f1695b2d18da01679ec" kind="function"><name>choixMassage</name></member>
+    <member refid="classspa_1_1_spa_1a041299959e6ee9a7e6d53c8db7f45c23" kind="function"><name>CalculPrix</name></member>
+    <member refid="classspa_1_1_spa_1a961244cc5d4eef40cb21424eff00985e" kind="function"><name>toString</name></member>
+    <member refid="classspa_1_1_spa_1a8ac402175133c10d4881e43744878966" kind="function"><name>deroulementMassage</name></member>
+  </compound>
+  <compound refid="class_test" kind="class"><name>Test</name>
+    <member refid="class_test_1ad91b01698e99c4a022d21159dd694250" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="class_test_casino" kind="class"><name>TestCasino</name>
+    <member refid="class_test_casino_1ad9e5747483705ef7be5d85911855d32a" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="class_test_chambre" kind="class"><name>TestChambre</name>
+    <member refid="class_test_chambre_1a2959dea40e040c91a122a46d0b626878" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="class_test_client" kind="class"><name>TestClient</name>
+    <member refid="class_test_client_1a23b2b902887947b9e3f3b24b29078d72" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="class_test_restaurant" kind="class"><name>TestRestaurant</name>
+    <member refid="class_test_restaurant_1a331f5f114d4b9d314f27f6da07e3726c" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="class_test_spa" kind="class"><name>TestSpa</name>
+    <member refid="class_test_spa_1ab9d6c8527b26b91064c889d97de185dc" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="enumchambre_1_1_chambre_1_1_type" kind="enum"><name>chambre::Chambre::Type</name>
+    <member refid="enumchambre_1_1_chambre_1_1_type_1a44db5823d5fc785987b83ae518e5a342" kind="variable"><name>SIMPLE</name></member>
+    <member refid="enumchambre_1_1_chambre_1_1_type_1a7e460a526ecc53a9b32250702f3e96c5" kind="variable"><name>DOUBLE</name></member>
+    <member refid="enumchambre_1_1_chambre_1_1_type_1ad4a2f13632c8378f272f736d8271854c" kind="variable"><name>TRIPLE</name></member>
+    <member refid="enumchambre_1_1_chambre_1_1_type_1ac20161c0b39a9629de12b8113b85cba8" kind="variable"><name>DELUXE</name></member>
+  </compound>
+  <compound refid="classutilisateur_1_1_utilisateur" kind="class"><name>utilisateur::Utilisateur</name>
+    <member refid="classutilisateur_1_1_utilisateur_1a84f7f66bf4f1ecdec45d1c220b765a02" kind="variable"><name>tabNom</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1afa22df2c86e4c1d505981ff5d97fe3af" kind="variable"><name>tabPrénom</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1ad583f15b23109dddaf3a010d9efef94b" kind="variable"><name>tabDateNaissance</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a5da04f9910f26fb2fa55a0633ff010c7" kind="variable"><name>tabEmail</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a18a4639e29279eabc3b8cf269e495dfe" kind="variable"><name>tabTéléphone</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a57756d7c55847b668d9e14e64b4ca4c1" kind="variable"><name>nbPersonnes</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a64cb3b2cc8a9ab0a8b7d6892e5a8ae6c" kind="variable"><name>tabClient</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a68dcc73628b54fa90be295fd6abb30bd" kind="variable"><name>client</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1adaa4e6ac183c72f9d65791fe93a8afd9" kind="variable"><name>tabDateArrivée</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a791f4e9408773aa4972e990c2e5cc2e2" kind="variable"><name>tabDateDépart</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a5eca2e37c95e9a9d791ba34e36a2b826" kind="variable"><name>chambre</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a4a777c3994f8d1849fddda1b1544451d" kind="variable"><name>table</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a5c0f8ef256163bec047d8ea3ffb3ec5a" kind="variable"><name>spa</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a949f3f5218cd1b1017dc9e523070f8da" kind="variable"><name>jeu</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a01d6cdfa8b0c689e0e7213b9dc268232" kind="variable"><name>tabMonnaieMise</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a629bcc86dcc898c603acd7a9ab344573" kind="variable"><name>tabMise</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1af7042818327d1e6591e81a9dfe582dc6" kind="variable"><name>monnaieInseree</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1acc0cae355a4ddd3db3ff938ee28fdaf5" kind="variable"><name>sc</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a9cffb2fa584e155c3be826b9b97a5175" kind="variable"><name>utiliseCagnotte</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a08ccd64aa60063e4f8f5a986d18ef1bf" kind="variable"><name>recommencer</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1ad4de03f98cf81786993295eefb2aa589" kind="variable"><name>k</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1aa00e1d6cb9623c300c48e745c6027452" kind="function"><name>Utilisateur</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1ad8e9d93e1b750ab66c9ea0304678824b" kind="function"><name>client</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1ad0d7ed08656397c1ea0d52754f086b48" kind="function"><name>chambre</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a071f4d40f348a782647f6a8ee73b1a9c" kind="function"><name>ConvertitOuiEnBool</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1a24355680352add8404f4e4c6bf1b14f3" kind="function"><name>casino</name></member>
+    <member refid="classutilisateur_1_1_utilisateur_1ac93db99fb7e6da43de2b8b88e3967cdb" kind="function"><name>recom</name></member>
+  </compound>
+  <compound refid="namespacecasino" kind="namespace"><name>casino</name>
+  </compound>
+  <compound refid="namespacechambre" kind="namespace"><name>chambre</name>
+  </compound>
+  <compound refid="namespaceclient" kind="namespace"><name>client</name>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="namespacejava_1_1text" kind="namespace"><name>java::text</name>
+  </compound>
+  <compound refid="namespacejava_1_1util" kind="namespace"><name>java::util</name>
+  </compound>
+  <compound refid="namespacerestaurant" kind="namespace"><name>restaurant</name>
+  </compound>
+  <compound refid="namespacespa" kind="namespace"><name>spa</name>
+  </compound>
+  <compound refid="namespaceutilisateur" kind="namespace"><name>utilisateur</name>
+  </compound>
+  <compound refid="_jeu_casino_8java" kind="file"><name>JeuCasino.java</name>
+  </compound>
+  <compound refid="_chambre_8java" kind="file"><name>Chambre.java</name>
+  </compound>
+  <compound refid="_client_8java" kind="file"><name>Client.java</name>
+  </compound>
+  <compound refid="_restaurant_8java" kind="file"><name>Restaurant.java</name>
+  </compound>
+  <compound refid="_spa_8java" kind="file"><name>Spa.java</name>
+  </compound>
+  <compound refid="_test_8java" kind="file"><name>Test.java</name>
+  </compound>
+  <compound refid="_test_casino_8java" kind="file"><name>TestCasino.java</name>
+  </compound>
+  <compound refid="_test_chambre_8java" kind="file"><name>TestChambre.java</name>
+  </compound>
+  <compound refid="_test_client_8java" kind="file"><name>TestClient.java</name>
+  </compound>
+  <compound refid="_test_restaurant_8java" kind="file"><name>TestRestaurant.java</name>
+  </compound>
+  <compound refid="_test_spa_8java" kind="file"><name>TestSpa.java</name>
+  </compound>
+  <compound refid="_utilisateur_8java" kind="file"><name>Utilisateur.java</name>
+  </compound>
+  <compound refid="dir_76f614d6667b3500962edcedb5fdf118" kind="dir"><name>casino</name>
+  </compound>
+  <compound refid="dir_6dea95b91c4eacf7d9a10e4f9c5b0be3" kind="dir"><name>chambre</name>
+  </compound>
+  <compound refid="dir_db3a54907829b36871118d03417739cd" kind="dir"><name>client</name>
+  </compound>
+  <compound refid="dir_7ead90819519333fb49894b3934444e1" kind="dir"><name>restaurant</name>
+  </compound>
+  <compound refid="dir_109d6f745396cd8f41b99fb1e69fd8dd" kind="dir"><name>spa</name>
+  </compound>
+  <compound refid="dir_1c0967bc22219bc0e35dfbc7760ee55e" kind="dir"><name>utilisateur</name>
+  </compound>
+</doxygenindex>

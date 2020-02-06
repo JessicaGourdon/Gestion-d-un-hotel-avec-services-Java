@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classchambre_1_1_chambre" kind="class" language="Java" prot="public">
+    <compoundname>chambre::Chambre</compoundname>
+    <innerclass refid="enumchambre_1_1_chambre_1_1_type" prot="protected">chambre::Chambre::Type</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1aac87080c7e7827ea70060de51438de57" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classclient_1_1_client" kindref="compound">Client</ref> &gt;</type>
+        <definition>ArrayList&lt;Client&gt; chambre.Chambre.tableauClient</definition>
+        <argsstring></argsstring>
+        <name>tableauClient</name>
+        <initializer>= new ArrayList&lt;<ref refid="classclient_1_1_client" kindref="compound">Client</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="11" column="1" bodyfile="chambre/Chambre.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1a4326db9259de3d53c17d28daebdc61f3" prot="private" static="no" mutable="no">
+        <type><ref refid="enumchambre_1_1_chambre_1_1_type" kindref="compound">Type</ref></type>
+        <definition>Type chambre.Chambre.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="14" column="1" bodyfile="chambre/Chambre.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1a677148848da0ab6982d48fadc1590cc7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double chambre.Chambre.prix</definition>
+        <argsstring></argsstring>
+        <name>prix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="16" column="1" bodyfile="chambre/Chambre.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1a486e071b162619b9982caeda00f47269" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double chambre.Chambre.prixTaxe</definition>
+        <argsstring></argsstring>
+        <name>prixTaxe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="17" column="1" bodyfile="chambre/Chambre.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1a36b810d25d3956cbe5efefca1a55b460" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String chambre.Chambre.arrivée</definition>
+        <argsstring></argsstring>
+        <name>arrivée</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="19" column="1" bodyfile="chambre/Chambre.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1a14ccbc9e966135fccd74434a8c3dd32a" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String chambre.Chambre.départ</definition>
+        <argsstring></argsstring>
+        <name>départ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="21" column="1" bodyfile="chambre/Chambre.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1af47cd65d740345efe28c8ca25a2d7fa2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int chambre.Chambre.nbjour</definition>
+        <argsstring></argsstring>
+        <name>nbjour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="23" column="1" bodyfile="chambre/Chambre.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1a8fd5b8b6c690c673320c71013e27f9ac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int chambre.Chambre.numéroChambre</definition>
+        <argsstring></argsstring>
+        <name>numéroChambre</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="31" column="1" bodyfile="chambre/Chambre.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1a162ba11a048f8aab26a7c6bf761e21a2" prot="public" static="yes" mutable="no">
+        <type>ArrayList&lt; Integer &gt;</type>
+        <definition>ArrayList&lt;Integer&gt; chambre.Chambre.tabNumChambre</definition>
+        <argsstring></argsstring>
+        <name>tabNumChambre</name>
+        <initializer>= new ArrayList&lt;Integer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="25" column="1" bodyfile="chambre/Chambre.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1a9b29e09f4bc6d62664f59e99de63564d" prot="public" static="yes" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; chambre.Chambre.tabDateArrivée</definition>
+        <argsstring></argsstring>
+        <name>tabDateArrivée</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="27" column="1" bodyfile="chambre/Chambre.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchambre_1_1_chambre_1ae17d710576e4b2666e6a322f7f7876b1" prot="public" static="yes" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; chambre.Chambre.tabDateDépart</definition>
+        <argsstring></argsstring>
+        <name>tabDateDépart</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="29" column="1" bodyfile="chambre/Chambre.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classchambre_1_1_chambre_1aa5fce4f89ec26914e9c893a46ef307a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>chambre.Chambre.Chambre</definition>
+        <argsstring>(ArrayList&lt; Client &gt; tableauClient, String arrivée, String départ)</argsstring>
+        <name>Chambre</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classclient_1_1_client" kindref="compound">Client</ref> &gt;</type>
+          <declname>tableauClient</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>arrivée</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>départ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="35" column="1" bodyfile="chambre/Chambre.java" bodystart="35" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a51bfdb856bbddf4a7560d47e3fce1d2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classclient_1_1_client" kindref="compound">Client</ref> &gt;</type>
+        <definition>ArrayList&lt;Client&gt; chambre.Chambre.getTableauClient</definition>
+        <argsstring>()</argsstring>
+        <name>getTableauClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="50" column="1" bodyfile="chambre/Chambre.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a4adaa2f400c44659a2a3255ac73082f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void chambre.Chambre.setType</definition>
+        <argsstring>()</argsstring>
+        <name>setType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="55" column="1" bodyfile="chambre/Chambre.java" bodystart="55" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a85a3796563b757947757ae361d9d54d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumchambre_1_1_chambre_1_1_type" kindref="compound">Type</ref></type>
+        <definition>Type chambre.Chambre.getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="80" column="1" bodyfile="chambre/Chambre.java" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1ab4ddf8eb213fd4c999947304e6a08afc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void chambre.Chambre.setPrix</definition>
+        <argsstring>()</argsstring>
+        <name>setPrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="86" column="1" bodyfile="chambre/Chambre.java" bodystart="86" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a4abf51f9539b9cfebacce9e784950e1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double chambre.Chambre.getPrix</definition>
+        <argsstring>()</argsstring>
+        <name>getPrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="104" column="1" bodyfile="chambre/Chambre.java" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a47b0ba3b56069c35371414a55ab694cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void chambre.Chambre.setArrivée</definition>
+        <argsstring>(String arrivée)</argsstring>
+        <name>setArrivée</name>
+        <param>
+          <type>String</type>
+          <declname>arrivée</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="110" column="1" bodyfile="chambre/Chambre.java" bodystart="110" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a22b4dd6da5c38dca2804397d9226afbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String chambre.Chambre.getArrivée</definition>
+        <argsstring>()</argsstring>
+        <name>getArrivée</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="132" column="1" bodyfile="chambre/Chambre.java" bodystart="132" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1aae7c45ce7706478c6a567eea46d0b070" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void chambre.Chambre.setDépart</definition>
+        <argsstring>(String départ)</argsstring>
+        <name>setDépart</name>
+        <param>
+          <type>String</type>
+          <declname>départ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="138" column="1" bodyfile="chambre/Chambre.java" bodystart="138" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1ac4f1540d86b148a6bcf83d84f3c5a512" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String chambre.Chambre.getDépart</definition>
+        <argsstring>()</argsstring>
+        <name>getDépart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="161" column="1" bodyfile="chambre/Chambre.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a9743685f40e65b19febe5d88e4833a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean chambre.Chambre.départApresArrivée</definition>
+        <argsstring>(String arrivée, String départ)</argsstring>
+        <name>départApresArrivée</name>
+        <param>
+          <type>String</type>
+          <declname>arrivée</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>départ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="167" column="1" bodyfile="chambre/Chambre.java" bodystart="167" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a793aabc721c19132c61965d903994ac1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long chambre.Chambre.calculNbJours</definition>
+        <argsstring>(String arrivée, String départ)</argsstring>
+        <name>calculNbJours</name>
+        <param>
+          <type>String</type>
+          <declname>arrivée</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>départ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="190" column="1" bodyfile="chambre/Chambre.java" bodystart="190" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1af0f6b23009a6ccc1a14fa158d89314ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean chambre.Chambre.disponibilitéUneChambre</definition>
+        <argsstring>(Type typeATester, String dateArrivéeATester, String dateDépartATester, int numéroTableau, String dateArrivéeTableau, String dateDépartTableau)</argsstring>
+        <name>disponibilitéUneChambre</name>
+        <param>
+          <type><ref refid="enumchambre_1_1_chambre_1_1_type" kindref="compound">Type</ref></type>
+          <declname>typeATester</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dateArrivéeATester</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dateDépartATester</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numéroTableau</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dateArrivéeTableau</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dateDépartTableau</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="217" column="1" bodyfile="chambre/Chambre.java" bodystart="217" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1ad1af4648ca1f52439d13c10549e0fbcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean chambre.Chambre.compareDate</definition>
+        <argsstring>(String arrivéeATester, String départATester, String arrivéeTableau, String départTableau)</argsstring>
+        <name>compareDate</name>
+        <param>
+          <type>String</type>
+          <declname>arrivéeATester</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>départATester</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>arrivéeTableau</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>départTableau</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="240" column="1" bodyfile="chambre/Chambre.java" bodystart="240" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1ab37177f79e74c2b861e50b5b62f0a75a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int chambre.Chambre.getNuméroChambre</definition>
+        <argsstring>(Type typeATester, String dateArrivéeATester, String dateDépartATester)</argsstring>
+        <name>getNuméroChambre</name>
+        <param>
+          <type><ref refid="enumchambre_1_1_chambre_1_1_type" kindref="compound">Type</ref></type>
+          <declname>typeATester</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dateArrivéeATester</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dateDépartATester</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="281" column="1" bodyfile="chambre/Chambre.java" bodystart="281" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a9faa902b212b252dff41d0853e51687f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void chambre.Chambre.setNuméroChambre</definition>
+        <argsstring>(Type typeATester, String dateArrivéeATester, String dateDépartATester)</argsstring>
+        <name>setNuméroChambre</name>
+        <param>
+          <type><ref refid="enumchambre_1_1_chambre_1_1_type" kindref="compound">Type</ref></type>
+          <declname>typeATester</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dateArrivéeATester</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dateDépartATester</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="358" column="1" bodyfile="chambre/Chambre.java" bodystart="358" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1a96d4df9b6ec946bf01604cbfa85c8b00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int chambre.Chambre.TestRetourNuméroChambre</definition>
+        <argsstring>()</argsstring>
+        <name>TestRetourNuméroChambre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="365" column="1" bodyfile="chambre/Chambre.java" bodystart="365" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classchambre_1_1_chambre_1aae6de00a7aad0dae0f9cc065c90a18d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String chambre.Chambre.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="370" column="1" bodyfile="chambre/Chambre.java" bodystart="370" bodyend="395"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="chambre/Chambre.java" line="8" column="1" bodyfile="chambre/Chambre.java" bodystart="8" bodyend="397"/>
+    <listofallmembers>
+      <member refid="classchambre_1_1_chambre_1a36b810d25d3956cbe5efefca1a55b460" prot="private" virt="non-virtual"><scope>chambre::Chambre</scope><name>arrivée</name></member>
+      <member refid="classchambre_1_1_chambre_1a793aabc721c19132c61965d903994ac1" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>calculNbJours</name></member>
+      <member refid="classchambre_1_1_chambre_1aa5fce4f89ec26914e9c893a46ef307a5" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>Chambre</name></member>
+      <member refid="classchambre_1_1_chambre_1ad1af4648ca1f52439d13c10549e0fbcf" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>compareDate</name></member>
+      <member refid="classchambre_1_1_chambre_1af0f6b23009a6ccc1a14fa158d89314ab" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>disponibilitéUneChambre</name></member>
+      <member refid="classchambre_1_1_chambre_1a14ccbc9e966135fccd74434a8c3dd32a" prot="private" virt="non-virtual"><scope>chambre::Chambre</scope><name>départ</name></member>
+      <member refid="classchambre_1_1_chambre_1a9743685f40e65b19febe5d88e4833a0b" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>départApresArrivée</name></member>
+      <member refid="classchambre_1_1_chambre_1a22b4dd6da5c38dca2804397d9226afbc" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>getArrivée</name></member>
+      <member refid="classchambre_1_1_chambre_1ac4f1540d86b148a6bcf83d84f3c5a512" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>getDépart</name></member>
+      <member refid="classchambre_1_1_chambre_1ab37177f79e74c2b861e50b5b62f0a75a" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>getNuméroChambre</name></member>
+      <member refid="classchambre_1_1_chambre_1a4abf51f9539b9cfebacce9e784950e1e" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>getPrix</name></member>
+      <member refid="classchambre_1_1_chambre_1a51bfdb856bbddf4a7560d47e3fce1d2c" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>getTableauClient</name></member>
+      <member refid="classchambre_1_1_chambre_1a85a3796563b757947757ae361d9d54d3" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>getType</name></member>
+      <member refid="classchambre_1_1_chambre_1af47cd65d740345efe28c8ca25a2d7fa2" prot="private" virt="non-virtual"><scope>chambre::Chambre</scope><name>nbjour</name></member>
+      <member refid="classchambre_1_1_chambre_1a8fd5b8b6c690c673320c71013e27f9ac" prot="private" virt="non-virtual"><scope>chambre::Chambre</scope><name>numéroChambre</name></member>
+      <member refid="classchambre_1_1_chambre_1a677148848da0ab6982d48fadc1590cc7" prot="private" virt="non-virtual"><scope>chambre::Chambre</scope><name>prix</name></member>
+      <member refid="classchambre_1_1_chambre_1a486e071b162619b9982caeda00f47269" prot="private" virt="non-virtual"><scope>chambre::Chambre</scope><name>prixTaxe</name></member>
+      <member refid="classchambre_1_1_chambre_1a47b0ba3b56069c35371414a55ab694cc" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>setArrivée</name></member>
+      <member refid="classchambre_1_1_chambre_1aae7c45ce7706478c6a567eea46d0b070" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>setDépart</name></member>
+      <member refid="classchambre_1_1_chambre_1a9faa902b212b252dff41d0853e51687f" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>setNuméroChambre</name></member>
+      <member refid="classchambre_1_1_chambre_1ab4ddf8eb213fd4c999947304e6a08afc" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>setPrix</name></member>
+      <member refid="classchambre_1_1_chambre_1a4adaa2f400c44659a2a3255ac73082f7" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>setType</name></member>
+      <member refid="classchambre_1_1_chambre_1a9b29e09f4bc6d62664f59e99de63564d" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>tabDateArrivée</name></member>
+      <member refid="classchambre_1_1_chambre_1ae17d710576e4b2666e6a322f7f7876b1" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>tabDateDépart</name></member>
+      <member refid="classchambre_1_1_chambre_1aac87080c7e7827ea70060de51438de57" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>tableauClient</name></member>
+      <member refid="classchambre_1_1_chambre_1a162ba11a048f8aab26a7c6bf761e21a2" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>tabNumChambre</name></member>
+      <member refid="classchambre_1_1_chambre_1a96d4df9b6ec946bf01604cbfa85c8b00" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>TestRetourNuméroChambre</name></member>
+      <member refid="classchambre_1_1_chambre_1aae6de00a7aad0dae0f9cc065c90a18d0" prot="public" virt="non-virtual"><scope>chambre::Chambre</scope><name>toString</name></member>
+      <member refid="classchambre_1_1_chambre_1a4326db9259de3d53c17d28daebdc61f3" prot="private" virt="non-virtual"><scope>chambre::Chambre</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classcasino_1_1_jeu_casino" kind="class" language="Java" prot="public">
+    <compoundname>casino::JeuCasino</compoundname>
+    <innerclass refid="enumcasino_1_1_jeu_casino_1_1_mise" prot="protected">casino::JeuCasino::Mise</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcasino_1_1_jeu_casino_1afb5f3db1e0211e4548600544983cd93b" prot="private" static="no" mutable="no">
+        <type><ref refid="classclient_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client casino.JeuCasino.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="10" column="1" bodyfile="casino/JeuCasino.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcasino_1_1_jeu_casino_1a3dfe6716271ab773f81db3770cd43a76" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double casino.JeuCasino.cagnotteOfferte</definition>
+        <argsstring></argsstring>
+        <name>cagnotteOfferte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="12" column="1" bodyfile="casino/JeuCasino.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcasino_1_1_jeu_casino_1a3defda81963bd075a3b2fb9920694680" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double casino.JeuCasino.argentInseree</definition>
+        <argsstring></argsstring>
+        <name>argentInseree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="14" column="1" bodyfile="casino/JeuCasino.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcasino_1_1_jeu_casino_1a2be41e57ab10b53f57c8078adc6c59f6" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; Double &gt;</type>
+        <definition>ArrayList&lt;Double&gt; casino.JeuCasino.argentMise</definition>
+        <argsstring></argsstring>
+        <name>argentMise</name>
+        <initializer>= new ArrayList&lt;Double&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="16" column="1" bodyfile="casino/JeuCasino.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcasino_1_1_jeu_casino_1aeb8eadb566f53c3018152800012b4645" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="enumcasino_1_1_jeu_casino_1_1_mise" kindref="compound">Mise</ref> &gt;</type>
+        <definition>ArrayList&lt;Mise&gt; casino.JeuCasino.tableauMise</definition>
+        <argsstring></argsstring>
+        <name>tableauMise</name>
+        <initializer>= new ArrayList&lt;<ref refid="enumcasino_1_1_jeu_casino_1_1_mise" kindref="compound">Mise</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="20" column="1" bodyfile="casino/JeuCasino.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcasino_1_1_jeu_casino_1a63be96b07399e98c3a1f1cfba3ac9138" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double casino.JeuCasino.gain</definition>
+        <argsstring></argsstring>
+        <name>gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="22" column="1" bodyfile="casino/JeuCasino.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcasino_1_1_jeu_casino_1afa8267154feb23482e4a07c686e237c9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int casino.JeuCasino.numeroTiree</definition>
+        <argsstring></argsstring>
+        <name>numeroTiree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="24" column="1" bodyfile="casino/JeuCasino.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcasino_1_1_jeu_casino_1a89253cecf6127a64971db659908a3fa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>casino.JeuCasino.JeuCasino</definition>
+        <argsstring>(Client client)</argsstring>
+        <name>JeuCasino</name>
+        <param>
+          <type><ref refid="classclient_1_1_client" kindref="compound">Client</ref></type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="27" column="1" bodyfile="casino/JeuCasino.java" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcasino_1_1_jeu_casino_1a285b3e8370e8fe3c437d0ae890b776bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void casino.JeuCasino.InsertionMonnaie</definition>
+        <argsstring>(boolean utiliseLaCagnotte, double monnaieInseree)</argsstring>
+        <name>InsertionMonnaie</name>
+        <param>
+          <type>boolean</type>
+          <declname>utiliseLaCagnotte</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>monnaieInseree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="35" column="1" bodyfile="casino/JeuCasino.java" bodystart="35" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classcasino_1_1_jeu_casino_1addf8b8e744f93f755c984191e7303674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void casino.JeuCasino.FaitesVosJeux</definition>
+        <argsstring>(ArrayList&lt; Double &gt; monnaieMise, ArrayList&lt; String &gt; mise)</argsstring>
+        <name>FaitesVosJeux</name>
+        <param>
+          <type>ArrayList&lt; Double &gt;</type>
+          <declname>monnaieMise</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; String &gt;</type>
+          <declname>mise</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="52" column="1" bodyfile="casino/JeuCasino.java" bodystart="52" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classcasino_1_1_jeu_casino_1ae047ff260857807fd81ff6fabfc2e401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void casino.JeuCasino.tirageNumero</definition>
+        <argsstring>()</argsstring>
+        <name>tirageNumero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="89" column="1" bodyfile="casino/JeuCasino.java" bodystart="89" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcasino_1_1_jeu_casino_1af6f2beda5cfbaa704805a0818a1c7415" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void casino.JeuCasino.gestionGain</definition>
+        <argsstring>()</argsstring>
+        <name>gestionGain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="96" column="1" bodyfile="casino/JeuCasino.java" bodystart="96" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classcasino_1_1_jeu_casino_1a0fb4d5b6476b4b290987319dd4691061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void casino.JeuCasino.VersementGain</definition>
+        <argsstring>()</argsstring>
+        <name>VersementGain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="166" column="1" bodyfile="casino/JeuCasino.java" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classcasino_1_1_jeu_casino_1a9532687038f2f9617f2b48c46f5c5fca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void casino.JeuCasino.deroulementJeuComplet</definition>
+        <argsstring>(boolean utiliseCagnotte, double monnaieInseree, ArrayList&lt; Double &gt; monnaieMise, ArrayList&lt; String &gt; mise)</argsstring>
+        <name>deroulementJeuComplet</name>
+        <param>
+          <type>boolean</type>
+          <declname>utiliseCagnotte</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>monnaieInseree</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; Double &gt;</type>
+          <declname>monnaieMise</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; String &gt;</type>
+          <declname>mise</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="172" column="1" bodyfile="casino/JeuCasino.java" bodystart="172" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classcasino_1_1_jeu_casino_1acc850777b656c514201d0b501274a497" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String casino.JeuCasino.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="casino/JeuCasino.java" line="183" column="1" bodyfile="casino/JeuCasino.java" bodystart="183" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="casino/JeuCasino.java" line="7" column="1" bodyfile="casino/JeuCasino.java" bodystart="7" bodyend="187"/>
+    <listofallmembers>
+      <member refid="classcasino_1_1_jeu_casino_1a3defda81963bd075a3b2fb9920694680" prot="private" virt="non-virtual"><scope>casino::JeuCasino</scope><name>argentInseree</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1a2be41e57ab10b53f57c8078adc6c59f6" prot="private" virt="non-virtual"><scope>casino::JeuCasino</scope><name>argentMise</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1a3dfe6716271ab773f81db3770cd43a76" prot="private" virt="non-virtual"><scope>casino::JeuCasino</scope><name>cagnotteOfferte</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1afb5f3db1e0211e4548600544983cd93b" prot="private" virt="non-virtual"><scope>casino::JeuCasino</scope><name>client</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1a9532687038f2f9617f2b48c46f5c5fca" prot="public" virt="non-virtual"><scope>casino::JeuCasino</scope><name>deroulementJeuComplet</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1addf8b8e744f93f755c984191e7303674" prot="public" virt="non-virtual"><scope>casino::JeuCasino</scope><name>FaitesVosJeux</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1a63be96b07399e98c3a1f1cfba3ac9138" prot="private" virt="non-virtual"><scope>casino::JeuCasino</scope><name>gain</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1af6f2beda5cfbaa704805a0818a1c7415" prot="public" virt="non-virtual"><scope>casino::JeuCasino</scope><name>gestionGain</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1a285b3e8370e8fe3c437d0ae890b776bb" prot="public" virt="non-virtual"><scope>casino::JeuCasino</scope><name>InsertionMonnaie</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1a89253cecf6127a64971db659908a3fa6" prot="public" virt="non-virtual"><scope>casino::JeuCasino</scope><name>JeuCasino</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1afa8267154feb23482e4a07c686e237c9" prot="private" virt="non-virtual"><scope>casino::JeuCasino</scope><name>numeroTiree</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1aeb8eadb566f53c3018152800012b4645" prot="private" virt="non-virtual"><scope>casino::JeuCasino</scope><name>tableauMise</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1ae047ff260857807fd81ff6fabfc2e401" prot="public" virt="non-virtual"><scope>casino::JeuCasino</scope><name>tirageNumero</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1acc850777b656c514201d0b501274a497" prot="public" virt="non-virtual"><scope>casino::JeuCasino</scope><name>toString</name></member>
+      <member refid="classcasino_1_1_jeu_casino_1a0fb4d5b6476b4b290987319dd4691061" prot="public" virt="non-virtual"><scope>casino::JeuCasino</scope><name>VersementGain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

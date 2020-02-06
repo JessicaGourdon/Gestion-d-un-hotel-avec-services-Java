@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceclient" kind="namespace" language="Java">
+    <compoundname>client</compoundname>
+    <innerclass refid="classclient_1_1_client" prot="public">client::Client</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="client/Client.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

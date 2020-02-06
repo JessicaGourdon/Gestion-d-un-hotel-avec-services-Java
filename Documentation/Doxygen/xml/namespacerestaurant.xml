@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacerestaurant" kind="namespace" language="Java">
+    <compoundname>restaurant</compoundname>
+    <innerclass refid="classrestaurant_1_1_restaurant" prot="public">restaurant::Restaurant</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="restaurant/Restaurant.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

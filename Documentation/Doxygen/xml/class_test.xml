@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_test" kind="class" language="Java" prot="public">
+    <compoundname>Test</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_test_1ad91b01698e99c4a022d21159dd694250" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Test.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Test.java" line="5" column="1" bodyfile="Test.java" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Test.java" line="3" column="1" bodyfile="Test.java" bodystart="3" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_test_1ad91b01698e99c4a022d21159dd694250" prot="public" virt="non-virtual"><scope>Test</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

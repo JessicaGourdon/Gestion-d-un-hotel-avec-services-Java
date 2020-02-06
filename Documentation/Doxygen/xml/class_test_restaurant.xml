@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_test_restaurant" kind="class" language="Java" prot="public">
+    <compoundname>TestRestaurant</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_test_restaurant_1a331f5f114d4b9d314f27f6da07e3726c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TestRestaurant.main</definition>
+        <argsstring>(String[]args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TestRestaurant.java" line="9" column="1" bodyfile="TestRestaurant.java" bodystart="9" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TestRestaurant.java" line="7" column="1" bodyfile="TestRestaurant.java" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_test_restaurant_1a331f5f114d4b9d314f27f6da07e3726c" prot="public" virt="non-virtual"><scope>TestRestaurant</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

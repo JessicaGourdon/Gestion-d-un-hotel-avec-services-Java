@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="enumchambre_1_1_chambre_1_1_type" kind="enum" language="Java" prot="protected">
+    <compoundname>chambre::Chambre::Type</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumchambre_1_1_chambre_1_1_type_1a44db5823d5fc785987b83ae518e5a342" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>chambre.Chambre.Type.SIMPLE</definition>
+        <argsstring></argsstring>
+        <name>SIMPLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="13" column="1" bodyfile="chambre/Chambre.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumchambre_1_1_chambre_1_1_type_1a7e460a526ecc53a9b32250702f3e96c5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>chambre.Chambre.Type.DOUBLE</definition>
+        <argsstring></argsstring>
+        <name>DOUBLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="13" column="1" bodyfile="chambre/Chambre.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumchambre_1_1_chambre_1_1_type_1ad4a2f13632c8378f272f736d8271854c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>chambre.Chambre.Type.TRIPLE</definition>
+        <argsstring></argsstring>
+        <name>TRIPLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="13" column="1" bodyfile="chambre/Chambre.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumchambre_1_1_chambre_1_1_type_1ac20161c0b39a9629de12b8113b85cba8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>chambre.Chambre.Type.DELUXE</definition>
+        <argsstring></argsstring>
+        <name>DELUXE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chambre/Chambre.java" line="13" column="1" bodyfile="chambre/Chambre.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="chambre/Chambre.java" line="13" column="1" bodyfile="chambre/Chambre.java" bodystart="13" bodyend="13"/>
+    <listofallmembers>
+      <member refid="enumchambre_1_1_chambre_1_1_type_1ac20161c0b39a9629de12b8113b85cba8" prot="public" virt="non-virtual"><scope>chambre::Chambre::Type</scope><name>DELUXE</name></member>
+      <member refid="enumchambre_1_1_chambre_1_1_type_1a7e460a526ecc53a9b32250702f3e96c5" prot="public" virt="non-virtual"><scope>chambre::Chambre::Type</scope><name>DOUBLE</name></member>
+      <member refid="enumchambre_1_1_chambre_1_1_type_1a44db5823d5fc785987b83ae518e5a342" prot="public" virt="non-virtual"><scope>chambre::Chambre::Type</scope><name>SIMPLE</name></member>
+      <member refid="enumchambre_1_1_chambre_1_1_type_1ad4a2f13632c8378f272f736d8271854c" prot="public" virt="non-virtual"><scope>chambre::Chambre::Type</scope><name>TRIPLE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

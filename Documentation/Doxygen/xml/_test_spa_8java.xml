@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="_test_spa_8java" kind="file" language="Java">
+    <compoundname>TestSpa.java</compoundname>
+    <innerclass refid="class_test_spa" prot="public">TestSpa</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespaceclient" kindref="compound">client</ref>.<ref refid="classclient_1_1_client" kindref="compound">Client</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacespa" kindref="compound">spa</ref>.<ref refid="classspa_1_1_spa" kindref="compound">Spa</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.*;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_test_spa" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_test_spa" kindref="compound">TestSpa</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>main(String[]args){</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ArrayList&lt;Client&gt;<sp/>tabclient1<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;Client&gt;();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classclient_1_1_client" kindref="compound">Client</ref><sp/>julien<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classclient_1_1_client" kindref="compound">Client</ref>(</highlight><highlight class="stringliteral">&quot;julien&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;choukroun&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;19/10/1999&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;julien.choukroun@orange.fr&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;+33610943819&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tabclient1.add(julien);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classclient_1_1_client" kindref="compound">Client</ref><sp/>jessica<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classclient_1_1_client" kindref="compound">Client</ref>(</highlight><highlight class="stringliteral">&quot;jessica&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;gourdon&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;07/01/2000&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;jessica.goudon@orange.fr&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;0622345678&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tabclient1.add(jessica);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classspa_1_1_spa" kindref="compound">Spa</ref><sp/><ref refid="namespacespa" kindref="compound">spa</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classspa_1_1_spa" kindref="compound">Spa</ref>(tabclient1);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spa.deroulementMassage();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="TestSpa.java"/>
+  </compounddef>
+</doxygen>

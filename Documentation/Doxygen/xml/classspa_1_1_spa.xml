@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classspa_1_1_spa" kind="class" language="Java" prot="public">
+    <compoundname>spa::Spa</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classspa_1_1_spa_1af86eb1c2f9e318fcf2c9504110cb92fc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double spa.Spa.prixRelaxant</definition>
+        <argsstring></argsstring>
+        <name>prixRelaxant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="10" column="1" bodyfile="spa/Spa.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspa_1_1_spa_1aff1c72b1b06f958361de4ea27bbc0f08" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double spa.Spa.prixPierre</definition>
+        <argsstring></argsstring>
+        <name>prixPierre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="12" column="1" bodyfile="spa/Spa.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspa_1_1_spa_1a289f7878a8cf0010098bc18b69dbdf00" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double spa.Spa.prixBougie</definition>
+        <argsstring></argsstring>
+        <name>prixBougie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="14" column="1" bodyfile="spa/Spa.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspa_1_1_spa_1af081f234e3013c472766870ecc5eda54" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classclient_1_1_client" kindref="compound">Client</ref> &gt;</type>
+        <definition>ArrayList&lt;Client&gt; spa.Spa.tableauClient</definition>
+        <argsstring></argsstring>
+        <name>tableauClient</name>
+        <initializer>= new ArrayList&lt;<ref refid="classclient_1_1_client" kindref="compound">Client</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="16" column="1" bodyfile="spa/Spa.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspa_1_1_spa_1a51d4dd0f55b2204b453aff717d36f890" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; Integer &gt;</type>
+        <definition>ArrayList&lt;Integer&gt; spa.Spa.tableauRelaxant</definition>
+        <argsstring></argsstring>
+        <name>tableauRelaxant</name>
+        <initializer>= new ArrayList&lt;Integer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="20" column="1" bodyfile="spa/Spa.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspa_1_1_spa_1a8efb784331cac4c3ad58a526fbebd551" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; Integer &gt;</type>
+        <definition>ArrayList&lt;Integer&gt; spa.Spa.tableauPierre</definition>
+        <argsstring></argsstring>
+        <name>tableauPierre</name>
+        <initializer>= new ArrayList&lt;Integer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="22" column="1" bodyfile="spa/Spa.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspa_1_1_spa_1a02d800bc0b185c7241ed4f0cbd573a43" prot="public" static="no" mutable="no">
+        <type>ArrayList&lt; Integer &gt;</type>
+        <definition>ArrayList&lt;Integer&gt; spa.Spa.tableauBougie</definition>
+        <argsstring></argsstring>
+        <name>tableauBougie</name>
+        <initializer>= new ArrayList&lt;Integer&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="24" column="1" bodyfile="spa/Spa.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspa_1_1_spa_1a67945f1ee7790c435c6f8db646b2e850" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double spa.Spa.prixTotal</definition>
+        <argsstring></argsstring>
+        <name>prixTotal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="26" column="1" bodyfile="spa/Spa.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classspa_1_1_spa_1a304f83435f4742a8efe8c433f8c7a230" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int spa.Spa.nbclient</definition>
+        <argsstring></argsstring>
+        <name>nbclient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="18" column="1" bodyfile="spa/Spa.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classspa_1_1_spa_1a62a39f9b07c2e0c835d259f6d930e880" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>spa.Spa.Spa</definition>
+        <argsstring>(ArrayList&lt; Client &gt; tableauClient)</argsstring>
+        <name>Spa</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classclient_1_1_client" kindref="compound">Client</ref> &gt;</type>
+          <declname>tableauClient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="29" column="1" bodyfile="spa/Spa.java" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classspa_1_1_spa_1a14f824a74e7914bfeb14f6074789798a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean spa.Spa.ConvertitOuiEnBool</definition>
+        <argsstring>(String ouinon)</argsstring>
+        <name>ConvertitOuiEnBool</name>
+        <param>
+          <type>String</type>
+          <declname>ouinon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="36" column="1" bodyfile="spa/Spa.java" bodystart="36" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classspa_1_1_spa_1a1da6de3ac40d4f1695b2d18da01679ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void spa.Spa.choixMassage</definition>
+        <argsstring>()</argsstring>
+        <name>choixMassage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="50" column="1" bodyfile="spa/Spa.java" bodystart="50" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classspa_1_1_spa_1a041299959e6ee9a7e6d53c8db7f45c23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void spa.Spa.CalculPrix</definition>
+        <argsstring>()</argsstring>
+        <name>CalculPrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="93" column="1" bodyfile="spa/Spa.java" bodystart="93" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classspa_1_1_spa_1a961244cc5d4eef40cb21424eff00985e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String spa.Spa.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="109" column="1" bodyfile="spa/Spa.java" bodystart="109" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classspa_1_1_spa_1a8ac402175133c10d4881e43744878966" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void spa.Spa.deroulementMassage</definition>
+        <argsstring>()</argsstring>
+        <name>deroulementMassage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="spa/Spa.java" line="119" column="1" bodyfile="spa/Spa.java" bodystart="119" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="spa/Spa.java" line="7" column="1" bodyfile="spa/Spa.java" bodystart="7" bodyend="128"/>
+    <listofallmembers>
+      <member refid="classspa_1_1_spa_1a041299959e6ee9a7e6d53c8db7f45c23" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>CalculPrix</name></member>
+      <member refid="classspa_1_1_spa_1a1da6de3ac40d4f1695b2d18da01679ec" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>choixMassage</name></member>
+      <member refid="classspa_1_1_spa_1a14f824a74e7914bfeb14f6074789798a" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>ConvertitOuiEnBool</name></member>
+      <member refid="classspa_1_1_spa_1a8ac402175133c10d4881e43744878966" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>deroulementMassage</name></member>
+      <member refid="classspa_1_1_spa_1a304f83435f4742a8efe8c433f8c7a230" prot="private" virt="non-virtual"><scope>spa::Spa</scope><name>nbclient</name></member>
+      <member refid="classspa_1_1_spa_1a289f7878a8cf0010098bc18b69dbdf00" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>prixBougie</name></member>
+      <member refid="classspa_1_1_spa_1aff1c72b1b06f958361de4ea27bbc0f08" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>prixPierre</name></member>
+      <member refid="classspa_1_1_spa_1af86eb1c2f9e318fcf2c9504110cb92fc" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>prixRelaxant</name></member>
+      <member refid="classspa_1_1_spa_1a67945f1ee7790c435c6f8db646b2e850" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>prixTotal</name></member>
+      <member refid="classspa_1_1_spa_1a62a39f9b07c2e0c835d259f6d930e880" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>Spa</name></member>
+      <member refid="classspa_1_1_spa_1a02d800bc0b185c7241ed4f0cbd573a43" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>tableauBougie</name></member>
+      <member refid="classspa_1_1_spa_1af081f234e3013c472766870ecc5eda54" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>tableauClient</name></member>
+      <member refid="classspa_1_1_spa_1a8efb784331cac4c3ad58a526fbebd551" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>tableauPierre</name></member>
+      <member refid="classspa_1_1_spa_1a51d4dd0f55b2204b453aff717d36f890" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>tableauRelaxant</name></member>
+      <member refid="classspa_1_1_spa_1a961244cc5d4eef40cb21424eff00985e" prot="public" virt="non-virtual"><scope>spa::Spa</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

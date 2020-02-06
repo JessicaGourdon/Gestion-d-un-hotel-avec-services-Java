@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classclient_1_1_client" kind="class" language="Java" prot="public">
+    <compoundname>client::Client</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classclient_1_1_client_1a7991ac55bb7151f1095afe40001333cd" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String client.Client.prénom</definition>
+        <argsstring></argsstring>
+        <name>prénom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="9" column="1" bodyfile="client/Client.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classclient_1_1_client_1ad236246e3792517bc7898f813285a448" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String client.Client.nom</definition>
+        <argsstring></argsstring>
+        <name>nom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="11" column="1" bodyfile="client/Client.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classclient_1_1_client_1abe835f29d7f4c6d914f993867fbe4f36" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String client.Client.naissance</definition>
+        <argsstring></argsstring>
+        <name>naissance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="13" column="1" bodyfile="client/Client.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classclient_1_1_client_1a9850f534cbfc9d0fbac33b2057fdbc42" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String client.Client.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="15" column="1" bodyfile="client/Client.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classclient_1_1_client_1a17594ce8d409f4c9d391d0daead76ef1" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String client.Client.téléphone</definition>
+        <argsstring></argsstring>
+        <name>téléphone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="17" column="1" bodyfile="client/Client.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classclient_1_1_client_1a5fbae8047e33d21bd19c8f06a4bea652" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double client.Client.CagnotteCasino</definition>
+        <argsstring></argsstring>
+        <name>CagnotteCasino</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="19" column="1" bodyfile="client/Client.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classclient_1_1_client_1a7c531b794cbc33b07b286874a7cc62c5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int client.Client.ticketRestaurant</definition>
+        <argsstring></argsstring>
+        <name>ticketRestaurant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="21" column="1" bodyfile="client/Client.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classclient_1_1_client_1a352ae7e985dcc272944f41c630b19826" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>client.Client.Client</definition>
+        <argsstring>(String prénom, String nom, String naissance, String email, String téléphone)</argsstring>
+        <name>Client</name>
+        <param>
+          <type>String</type>
+          <declname>prénom</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nom</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>naissance</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>téléphone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="24" column="1" bodyfile="client/Client.java" bodystart="24" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a10fca5d94349a6151b6195601790ed37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String client.Client.getPrénom</definition>
+        <argsstring>()</argsstring>
+        <name>getPrénom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="35" column="1" bodyfile="client/Client.java" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a67ef67b287f2effd22de1f950642e80c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void client.Client.setPrénom</definition>
+        <argsstring>(String newPrénom)</argsstring>
+        <name>setPrénom</name>
+        <param>
+          <type>String</type>
+          <declname>newPrénom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="40" column="1" bodyfile="client/Client.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1adec45a786879acb72cc17e51e76c7373" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String client.Client.getNom</definition>
+        <argsstring>()</argsstring>
+        <name>getNom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="45" column="1" bodyfile="client/Client.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1ae3bd099337c8a316dabd27a61c015417" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void client.Client.setNom</definition>
+        <argsstring>(String newNom)</argsstring>
+        <name>setNom</name>
+        <param>
+          <type>String</type>
+          <declname>newNom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="50" column="1" bodyfile="client/Client.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a3a24e5a788a996e25b846caf118c337f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String client.Client.getNaissance</definition>
+        <argsstring>()</argsstring>
+        <name>getNaissance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="55" column="1" bodyfile="client/Client.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a0cedd76dbca326eb449364bc74db17e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void client.Client.setNaissance</definition>
+        <argsstring>(String naissance)</argsstring>
+        <name>setNaissance</name>
+        <param>
+          <type>String</type>
+          <declname>naissance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="61" column="1" bodyfile="client/Client.java" bodystart="61" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a95d46988c8ea55add69f98057a1fb471" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String client.Client.getEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="82" column="1" bodyfile="client/Client.java" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1ada37fba87454952eb0223b858b0e7651" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void client.Client.setEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="88" column="1" bodyfile="client/Client.java" bodystart="88" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a22b50a565aeba5206ccd3db2f5cd24ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String client.Client.getTéléphone</definition>
+        <argsstring>()</argsstring>
+        <name>getTéléphone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="105" column="1" bodyfile="client/Client.java" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1ac64e8abd8ef5dffa0a537f78addaf2ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean client.Client.estUnEntier</definition>
+        <argsstring>(String téléphone)</argsstring>
+        <name>estUnEntier</name>
+        <param>
+          <type>String</type>
+          <declname>téléphone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="110" column="1" bodyfile="client/Client.java" bodystart="110" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a3317387082b1802fa15455f5effa4d0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void client.Client.setTéléphone</definition>
+        <argsstring>(String téléphone)</argsstring>
+        <name>setTéléphone</name>
+        <param>
+          <type>String</type>
+          <declname>téléphone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="127" column="1" bodyfile="client/Client.java" bodystart="127" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a23521681f84e8c555d3f41ae44bdad01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double client.Client.getCagnotte</definition>
+        <argsstring>()</argsstring>
+        <name>getCagnotte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="156" column="1" bodyfile="client/Client.java" bodystart="156" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1abb69f7fbef51d6b314637d1e9973fd38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void client.Client.setCagnotte</definition>
+        <argsstring>(double newCagnotte)</argsstring>
+        <name>setCagnotte</name>
+        <param>
+          <type>double</type>
+          <declname>newCagnotte</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="161" column="1" bodyfile="client/Client.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a4f6ce4432254f161fcac1c764fcb8375" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int client.Client.getTicket</definition>
+        <argsstring>()</argsstring>
+        <name>getTicket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="166" column="1" bodyfile="client/Client.java" bodystart="166" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1a26caea9aa4fe404f9baf5849d05a11dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void client.Client.setTicket</definition>
+        <argsstring>(int newTicket)</argsstring>
+        <name>setTicket</name>
+        <param>
+          <type>int</type>
+          <declname>newTicket</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="171" column="1" bodyfile="client/Client.java" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classclient_1_1_client_1ae71bb329735a7d19f86ab7d6859fd60f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String client.Client.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="client/Client.java" line="176" column="1" bodyfile="client/Client.java" bodystart="176" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="client/Client.java" line="6" column="1" bodyfile="client/Client.java" bodystart="6" bodyend="190"/>
+    <listofallmembers>
+      <member refid="classclient_1_1_client_1a5fbae8047e33d21bd19c8f06a4bea652" prot="private" virt="non-virtual"><scope>client::Client</scope><name>CagnotteCasino</name></member>
+      <member refid="classclient_1_1_client_1a352ae7e985dcc272944f41c630b19826" prot="public" virt="non-virtual"><scope>client::Client</scope><name>Client</name></member>
+      <member refid="classclient_1_1_client_1a9850f534cbfc9d0fbac33b2057fdbc42" prot="private" virt="non-virtual"><scope>client::Client</scope><name>email</name></member>
+      <member refid="classclient_1_1_client_1ac64e8abd8ef5dffa0a537f78addaf2ba" prot="public" virt="non-virtual"><scope>client::Client</scope><name>estUnEntier</name></member>
+      <member refid="classclient_1_1_client_1a23521681f84e8c555d3f41ae44bdad01" prot="public" virt="non-virtual"><scope>client::Client</scope><name>getCagnotte</name></member>
+      <member refid="classclient_1_1_client_1a95d46988c8ea55add69f98057a1fb471" prot="public" virt="non-virtual"><scope>client::Client</scope><name>getEmail</name></member>
+      <member refid="classclient_1_1_client_1a3a24e5a788a996e25b846caf118c337f" prot="public" virt="non-virtual"><scope>client::Client</scope><name>getNaissance</name></member>
+      <member refid="classclient_1_1_client_1adec45a786879acb72cc17e51e76c7373" prot="public" virt="non-virtual"><scope>client::Client</scope><name>getNom</name></member>
+      <member refid="classclient_1_1_client_1a10fca5d94349a6151b6195601790ed37" prot="public" virt="non-virtual"><scope>client::Client</scope><name>getPrénom</name></member>
+      <member refid="classclient_1_1_client_1a4f6ce4432254f161fcac1c764fcb8375" prot="public" virt="non-virtual"><scope>client::Client</scope><name>getTicket</name></member>
+      <member refid="classclient_1_1_client_1a22b50a565aeba5206ccd3db2f5cd24ca" prot="public" virt="non-virtual"><scope>client::Client</scope><name>getTéléphone</name></member>
+      <member refid="classclient_1_1_client_1abe835f29d7f4c6d914f993867fbe4f36" prot="private" virt="non-virtual"><scope>client::Client</scope><name>naissance</name></member>
+      <member refid="classclient_1_1_client_1ad236246e3792517bc7898f813285a448" prot="private" virt="non-virtual"><scope>client::Client</scope><name>nom</name></member>
+      <member refid="classclient_1_1_client_1a7991ac55bb7151f1095afe40001333cd" prot="private" virt="non-virtual"><scope>client::Client</scope><name>prénom</name></member>
+      <member refid="classclient_1_1_client_1abb69f7fbef51d6b314637d1e9973fd38" prot="public" virt="non-virtual"><scope>client::Client</scope><name>setCagnotte</name></member>
+      <member refid="classclient_1_1_client_1ada37fba87454952eb0223b858b0e7651" prot="public" virt="non-virtual"><scope>client::Client</scope><name>setEmail</name></member>
+      <member refid="classclient_1_1_client_1a0cedd76dbca326eb449364bc74db17e4" prot="public" virt="non-virtual"><scope>client::Client</scope><name>setNaissance</name></member>
+      <member refid="classclient_1_1_client_1ae3bd099337c8a316dabd27a61c015417" prot="public" virt="non-virtual"><scope>client::Client</scope><name>setNom</name></member>
+      <member refid="classclient_1_1_client_1a67ef67b287f2effd22de1f950642e80c" prot="public" virt="non-virtual"><scope>client::Client</scope><name>setPrénom</name></member>
+      <member refid="classclient_1_1_client_1a26caea9aa4fe404f9baf5849d05a11dd" prot="public" virt="non-virtual"><scope>client::Client</scope><name>setTicket</name></member>
+      <member refid="classclient_1_1_client_1a3317387082b1802fa15455f5effa4d0a" prot="public" virt="non-virtual"><scope>client::Client</scope><name>setTéléphone</name></member>
+      <member refid="classclient_1_1_client_1a7c531b794cbc33b07b286874a7cc62c5" prot="private" virt="non-virtual"><scope>client::Client</scope><name>ticketRestaurant</name></member>
+      <member refid="classclient_1_1_client_1ae71bb329735a7d19f86ab7d6859fd60f" prot="public" virt="non-virtual"><scope>client::Client</scope><name>toString</name></member>
+      <member refid="classclient_1_1_client_1a17594ce8d409f4c9d391d0daead76ef1" prot="private" virt="non-virtual"><scope>client::Client</scope><name>téléphone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
