@@ -1,6 +1,6 @@
 Ce projet est réalisé dans le cadre de la formation de cycle d'ingénieur (première année) de l'Ecole Polytechnique de l'Université Côte d'Azur.
 ***
-# Gestion d'un hotel avec services
+# Gestion d'un hôtel avec services
 
 ## Présentation
 Ce projet a été réalisé avec le langage Java.
